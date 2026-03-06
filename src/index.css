@@ -183,3 +183,25 @@ body {
   animation: auroraMove var(--speed) ease-in-out infinite alternate;
 
 }
+
+/* subtle logo shine */
+
+.logo-shine{
+animation:logoShine 6s linear infinite;
+}
+
+@keyframes logoShine{
+
+0%{
+filter:brightness(1);
+}
+
+50%{
+filter:brightness(1.35);
+}
+
+100%{
+filter:brightness(1);
+}
+
+}
